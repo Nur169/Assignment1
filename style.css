@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    border: none;
+}
+
+h3 {
+    color: #4E47FF;
+    margin: 0;
+    font-size: 24px;
+}
+
+h1 {
+    color:black;
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+section{
+    width: 100%;
+}
+.btn-primary {
+    background-color: #4E47FF;
+    height: 40px;
+    /* width: 160px; */
+    font-weight: 700;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.action{
+
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    padding: 78px 14px;
+    align-items: center;
+    margin: 0 auto;
+    width: 1140px;
+}
+.action-description{
+    color: #252432
+    
+}
+header {
+    background-image: url('./Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.hero-text {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    color: black;
+    border-radius: 10px;
+}
+.section-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+
+.user{
+    font-weight: bolder;
+    color: #4E47FF;
+    
+}
+.productive-users{
+    display: flex;
+    justify-content: space-around;
+    width: 540px;
+    margin: 0 auto;
+}
+.users-container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #4d47ff28;
+    padding: 20px 0;
+    
+}
+.productive-user span{
+    font-size: 42px;
+    color: #4E47FF;
+    font-weight: 700;
+}
+.testimonial{
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    max-width: 500px;
+    box-shadow: 0 4px 15px;
+    text-align: left;
+}
+.testimonials{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+
+}
+.testimonial-container{
+    display: flex;
+    gap: 30px;
+    padding: 0 70px 0 300px;
+}
+.testimonials h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #222;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.testimonial h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+}
+.testimonial p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.reviewer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.name{
+    font-weight: bold;
+    margin: 0;
+}
+.date{
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+}
+.contact-section{
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+.contact-container{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: flex-start;
+    gap: 40px;
+}
+.left-text h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #111;
+    line-height: 1.2;
+}
+.contact-form{
+    flex: 1;
+    min-width: 300px;
+   display: flex;
+   flex-direction: column;
+}
+.contact-form label{
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+
+}
+.contact-form input.contact-form textarea{
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+    resize: vertical;
+}
+.contact-form textarea{
+    height: 100px;
+}
+.contact-form button{
+    padding: 12px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.contact-form button:hover{
+    background-color: #2563eb;
+}
+.container{
+    padding: 100px 20px;
+}
+.logo{
+    color: #4E47FF;
+    font-size: 60px;
+    margin: 0;
+}
+.description{
+    color: #777;
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 16px;
+}
+.navbar{
+   
+    color: #555;
+    margin: 0 0px;
+    font-size: 16px;
+    justify-content:space-around;
+   
+}
+.navbar a:hover{
+    color: #4E47FF;
+    
